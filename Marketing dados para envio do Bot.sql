@@ -1,3 +1,7 @@
+--- Esses dados foram solicitados para pegar dados específicos para conseguir fazer campanhas para os nossos clientes.
+--- Dados como Nome do credor, telefone, cidade, nome do advogado.
+
+
 select 
 	[dbo].[tb_Valor_Cedido].[ds_Codigo], FORMAT([dbo].[tb_Valor_Cedido].mn_Valor_Cedido ,'C','PT-BR')as [Valor Cedido],[dbo].[tb_Requerente].[ds_Nome],[dbo].[tb_Requerente].nr_Celular_1,
 	[dbo].[tb_Usuario].[ds_Nome], [dbo].[tb_Processo].ds_Ordem_Pagamento, [dbo].[tb_Requerente].[id_Nivel_Negociacao], 	[dbo].[tb_Requerente].ds_Cidade, [dbo].[tb_Requerente].ds_Estado,
