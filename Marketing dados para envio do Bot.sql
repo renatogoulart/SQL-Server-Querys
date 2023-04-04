@@ -1,5 +1,6 @@
---- Esses dados foram solicitados para pegar dados específicos para conseguir fazer campanhas para os nossos clientes.
+--- Esses dados foram solicitados para pegar informações específicas no banco, para assim conseguir fazer campanhas cpm os nossos clientes.
 --- Dados como Nome do credor, telefone, cidade, nome do advogado.
+--- E para isso precisei juntar 8 tabelas diferentes
 
 
 select 
